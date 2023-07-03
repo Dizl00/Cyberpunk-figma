@@ -1,0 +1,104 @@
+/*FONTS*/
+@font-face {
+  font-family: "Archangelsk";
+  src: url("Fonts/ofont.ru_Archangelsk.ttf");
+}
+/*FONTS end*/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Archangelsk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+}
+
+p, a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #777777;
+}
+
+ul {
+  list-style: none;
+}
+
+/*BANNER*/
+.banner {
+  background-image: url(./images/banner.jpg);
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+}
+
+.header {
+  width: 1280px;
+  height: 100%;
+  position: relative;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: inline;
+  padding: 0;
+}
+.social-media__elem {
+  display: inline;
+}
+.social-media__elem:not(:last-child) {
+  padding-right: 40px;
+}
+
+.label {
+  width: 740px;
+  position: absolute;
+  bottom: -114px;
+  right: 0;
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+.label__content {
+  width: 624px;
+  height: 369px;
+  transform: rotate(45deg);
+  background: #F8F200;
+  margin: 115px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.label__text {
+  margin: 70px;
+}
+.label__button {
+  width: 272px;
+  height: 78px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #F8F200;
+  font-size: 24px;
+}
+
+/*GALLERY*/
+.gallery {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery__text_color_blue {
+  color: #52BEDC;
+}
+
+/*# sourceMappingURL=styles.css.map */
