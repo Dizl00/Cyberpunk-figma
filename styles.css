@@ -60,7 +60,7 @@ ul {
   width: 740px;
   position: absolute;
   bottom: -114px;
-  right: 0;
+  right: -60px;
   transform: rotate(-45deg);
   overflow: hidden;
 }
@@ -69,7 +69,7 @@ ul {
   height: 369px;
   transform: rotate(45deg);
   background: #F8F200;
-  margin: 115px auto;
+  margin: 115px 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -91,14 +91,34 @@ ul {
 
 /*GALLERY*/
 .gallery {
-  width: 1280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
+.gallery__content {
+  width: 1280px;
+}
+.gallery__title_margin {
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.gallery__text {
+  width: 952px;
+}
 .gallery__text_color_blue {
   color: #52BEDC;
+}
+.gallery__text_margin {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.pictures {
+  display: flex;
+}
+.pictures__elem_margin {
+  margin: 0 32px 32px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -62,7 +62,7 @@ ul{
     
     position: absolute;
     bottom: -114px;
-    right: 0;
+    right: -60px;
 
     transform: rotate(-45deg);
     overflow: hidden;
@@ -72,7 +72,7 @@ ul{
         height: 369px;
         transform: rotate(45deg);
         background: #F8F200;
-        margin: 115px auto;
+        margin: 115px  0 auto;
 
         display: flex;
         align-items: center;
@@ -100,11 +100,42 @@ ul{
 /*GALLERY*/
 
 .gallery{
-    width: 1280px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    &__content{
+        width: 1280px;
+    }
+    &__title{
+
+        &_margin{
+            margin-top: 70px;
+            margin-bottom: 25px;
+        }
+    }
+    &__text{
+        width: 952px;
+
+        &_color_blue{
+        color: #52BEDC; 
+        }
+
+        &_margin{
+            margin-top: 0;
+            margin-bottom: 70px;
+        }
+    }
 }
-.gallery__text_color_blue{
-    color: #52BEDC; 
+
+.pictures{
+    display: flex;
+    &__elem{
+        &_margin{
+            margin: 0 32px 32px 0;
+        }
+    }
+    
 }
